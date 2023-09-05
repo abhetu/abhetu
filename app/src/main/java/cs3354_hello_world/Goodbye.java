@@ -1,6 +1,6 @@
 package cs3354_hello_world;
 
-public class Goodbye {
+public class Goodbye extends ReflectionCode  {
     private String name = "";
     
     public String getName() 
