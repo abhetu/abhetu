@@ -16,6 +16,10 @@ public class App {
         Hello greeting = new Hello();
         System.out.println(greeting.sayHello());
 
+        greeting.printClassAndPackageName();
+        greeting.printFields();
+
+
         DoMath mathwhiz = new DoMath();
         mathwhiz.printClassAndPackageName();
         mathresult = mathwhiz.increment(1);
