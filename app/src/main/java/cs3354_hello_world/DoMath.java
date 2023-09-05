@@ -1,6 +1,6 @@
 package cs3354_hello_world;
 
-public class DoMath {
+public class DoMath extends ReflectionCode{
     protected int x;
     
     public int increment(int number) 
@@ -14,7 +14,8 @@ public class DoMath {
         x = number--;
         return x;
     }
-   
+
+    /* 
     public void printClassAndPackageName() {
         // The explicit declaration of ThisClass is unnecessary but hopefull useful 
         // for illustrating what is going on to students.
@@ -24,6 +25,6 @@ public class DoMath {
         System.out.println("Instance name: " + this);
         System.out.println("Package name: " + ThisClass.getPackageName());
     }
-
+    */
 
 }
