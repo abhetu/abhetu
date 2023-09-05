@@ -1,5 +1,6 @@
 package cs3354_hello_world;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public abstract class ReflectionCode {
 
@@ -18,6 +19,15 @@ public abstract class ReflectionCode {
         for (Field field : fields) {
             System.out.println("Field name: " + field.getName());
         }
+    }
+
+    public void printMethods() {
+        Method[] methods = this.getClass().getDeclaredMethods();
+
+        // Loop through the methods and print their names
+        for (Method method : methods) {
+            System.out.println("Method name: " + method.getName());
+        } 
     }
 
 }

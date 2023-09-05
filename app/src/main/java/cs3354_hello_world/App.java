@@ -18,7 +18,7 @@ public class App {
 
         greeting.printClassAndPackageName();
         greeting.printFields();
-
+        greeting.printMethods();
 
         DoMath mathwhiz = new DoMath();
         mathwhiz.printClassAndPackageName();
