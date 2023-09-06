@@ -3,7 +3,6 @@
  * 
  */
 package cs3354_hello_world;
-
 public class App {
     public String getStarted() {
         return "Getting Started!";
@@ -13,20 +12,33 @@ public class App {
         int mathresult = 0;
         System.out.println(new App().getStarted());
 
-        Hello greeting = new Hello();
-        System.out.println(greeting.sayHello());
-
-        greeting.printClassAndPackageName();
-        greeting.printFields();
-        greeting.printMethods();
-
+        Hello HelloInstance = new Hello();
+        System.out.println(HelloInstance.sayHello());
         DoMath mathwhiz = new DoMath();
-        mathwhiz.printClassAndPackageName();
         mathresult = mathwhiz.increment(1);
         System.out.println("Increment result: " + mathresult);
         mathresult = mathwhiz.decrement(mathresult);
         System.out.println("Decrement result: " + mathresult);
 
+        // Reflection Examples
+        mathwhiz.printClassAndPackageName();
+        HelloInstance.printClassAndPackageName();
+        HelloInstance.printFields();
+        HelloInstance.printMethods();
+        // End Reflection Examples
+ 
+        // Nested Class Examples
+        // No instantiation needed for accessing StaticInnerClass's static methods
+        // Instantiation needed for accessing StaticInnerClass's instance methods. 
+        OuterNestedClass.StaticInnerClass.printStaticStaticMessage();
+        OuterNestedClass.StaticInnerClass staticNested = new OuterNestedClass.StaticInnerClass();
+        staticNested.printStaticInstanceMessage();
+
+        // Instantiation needed for accessing methods of nested NonStaticInnerClass
+        OuterNestedClass outerObject = new OuterNestedClass();
+        OuterNestedClass.NonStaticInnerClass inner = outerObject.new NonStaticInnerClass();
+        inner.printNonStaticInnerClassMessage();
+        // End Nested Class Examples
 
         Goodbye thankyou = new Goodbye();
         System.out.println(thankyou.sayGoodbye());
