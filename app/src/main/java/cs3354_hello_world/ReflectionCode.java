@@ -4,7 +4,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 
 public abstract class ReflectionCode {
-
+    
     public void printClassAndPackageName() {
         // The explicit declaration of ThisClass is unnecessary but hopefull useful 
         // for illustrating what is going on to students.
