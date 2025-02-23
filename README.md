@@ -1,4 +1,4 @@
-## 👋 Hi, this is Anubhav!
+## 👋 Hi, I am Anubhav!
 
 🌱 Currently exploring full-stack development, AI-based Software Engineering, and optimizing web performance.
 
