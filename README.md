@@ -1,4 +1,4 @@
-## 👋 Hi, I'm Anubhav Bhetuwal!
+## 👋 Hi, I am Anubhav Bhetuwal!
 
 🌱 Currently exploring full-stack development, AI-based Software Engineering, and optimizing web performance.
 
