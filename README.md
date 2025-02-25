@@ -1,4 +1,4 @@
-## 👋 Hi, I am Anubhav, a junior at Texas State University!
+## 👋 Hi, I am Anubhav, a Computer Science junior at Texas State University!
 
 🌱 Currently exploring full-stack development, AI-based Software Engineering, and optimizing web performance.
 
