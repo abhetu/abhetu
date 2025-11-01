@@ -1,4 +1,4 @@
-## 👋 Hi, I am Anubhav, a Computer Science senior at Texas State University, San Marcos!
+## 👋 Hi, I am Anubhav, a Computer Science senior at Texas State University, San Marcos, TX!
 
 🌱 Currently exploring full-stack development, AI-based Software Engineering, and optimizing web performance.
 
